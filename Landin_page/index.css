@@ -1,0 +1,233 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: white ;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position:sticky;
+    top: 0px;
+    
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#logo{
+    margin: 10px 20px;
+}
+#logo img{
+    height: 56px;
+    margin: 3px 6px;
+    border-radius: 20px;
+}
+.login img{
+    height: 40px;
+    width: 40px;
+    margin: 3px 6px;
+    border-radius: 20px;
+}
+.login{
+    position: absolute;
+    right: 30px;
+    top:10px;
+}
+.login p{
+    color: white;
+    position: absolute;
+    right: 8px;
+}
+.login p a{
+    background-color: white;
+    color:black;
+    text-decoration: none;
+    padding: 1px;
+    border-radius: 2px;
+}
+
+#navbar ul{
+   
+    display: flex; 
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.2rem;
+}
+#navbar ul li a{
+   color: white;
+   display:block ;
+   padding: 3px 22px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+#navbar ul li a:hover{
+   color: black;
+   background-color: white;
+}
+
+
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    padding: 3px 200px ;
+    align-items: center;
+    justify-content:center;
+}
+#home::before{
+    content: "";
+    background:url(https://img.freepik.com/free-photo/weights-exercise-weightlifter-strong-athletic_1139-709.jpg?size=626&ext=jpg&ga=GA1.1.1931958119.1696148252&semt=sph)
+    no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height:500px;
+    width:100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+#home h1{
+    font-size:10vh;
+    font-weight:bolder;
+    color: white;
+    text-align: center;
+}
+#home p{
+    background-color: black;
+    color: white;
+    padding: 2px;
+}
+#about{
+    margin: 34px;
+    display: flex;
+   
+}
+#about .box{
+    padding: 20px;
+    margin: 5px 30px;
+    border-radius: 23px;
+    background-color: rgb(249, 245, 245);
+    margin-bottom: 20px;
+}
+#about .box img{
+    height:200px ;
+    margin: auto;
+    display: block;
+}
+#challenge-section{
+    position:relative;
+    height: 344px;
+    margin-bottom: 50px;
+}
+#challenges{
+   margin: 34px;
+    display: flex;
+}
+#challenges .challenge-item{
+    padding:20px;
+    margin: 5px 20px;
+    border-radius: 23px;
+    background-color: rgb(249, 245, 245);
+    margin-bottom: 20px;
+}
+#challenges .challenge-item img{
+   height:160px ;
+    margin: auto;
+    display: block;
+}
+#contacts{
+    margin: 34px;
+    display: flex;
+    justify-content: center;
+}
+#contacts .contact-item{
+    padding: 10px;
+    margin: 5px 30px;
+    border-radius: 23px;
+    background-color: rgb(249, 245, 245);
+    margin-bottom: 20px;
+}
+#contacts .contact-item img{
+    height: 40px;
+    width: 40px;
+    margin:auto;
+    display:inline;
+}
+#contacts .contact-item div{
+    position:relative;
+    bottom: 70px;
+    left:10px;
+}
+.btn{
+    width:min-content;
+    color: white;
+    border-radius: 10px;
+    padding: 2px;
+    background-color: rgb(34, 23, 23);
+}
+.btn:hover{
+    cursor: pointer;
+    padding: 10px;
+}
+#login-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:34px ;
+}
+#login-box input,
+#login-box textarea{
+     width: 100%;
+     padding: 0.5rem;
+     border-radius: 9px;
+     font-size: 1.2rem;
+}
+#login-box form{
+    width:40%;
+}
+#login-box label{
+    font-size:1.3rem ;
+
+}
+.h-primary{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   font-size: 3.8rem;
+   padding: 12px;
+}
+.h-secondary{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   font-size: 2.3rem;
+   padding: 12px;
+}
+button{
+ color: white;   
+background-color: rgb(86, 86, 184);
+padding:5px;
+display:block ;
+width: 100px;
+margin:10px auto;
+}
+.btn2:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+.center{
+    text-align: center;
+}

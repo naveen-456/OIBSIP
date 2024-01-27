@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(188, 197, 208);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: rgb(140, 140, 201);
+    font-size: 1.04rem;
+    padding: 5px;
+    background-color: rgb(26, 23, 23);
+    border-radius: 5px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+#homesection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 140px 0px;
+}
+
+#homesection>div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 2rem;
+}
+button{
+    background-color:rgb(222, 182, 223);
+}
+.leftsection  a {
+    text-decoration: none;
+    color: black;
+}
+.leftsection .btn {
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.leftsection .btn :hover{
+    font-size: 1rem;
+    color: blue;
+}
+.rightsection img {
+    width: 90%;
+    border-radius: 10px;
+}
+
+.purple {
+    color: rgb(79, 33, 121);
+}
+
+.text-gray {
+    display: block;
+    width:1000px;
+    color: rgb(43, 41, 41);
+}
+
+#element {
+    color: rgb(93, 93, 238);
+}
+
+#aboutsection {
+    background-color: #c2b7f3;
+    margin: 50px 60px;
+    height: 80vh;
+    padding: 40px;
+    border-radius: 25px;
+}
+
+#aboutsection h1 {
+    margin: 20px 0px;
+    font-size: 1.5rem;
+    padding: 10px 0px;
+}
+
+#aboutsection .about {
+    position: relative;
+    right: 50px;
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(83, 24, 137);
+    height: 2px;
+    margin: 30px 44px;
+}
+#aboutsection .box {
+    margin: 56px 0;
+    display: flex;
+}
+
+#aboutsection .vertical {
+    height:160px;
+    width: 220px;
+    padding: 30px 40px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px;
+}
+.image-top {
+    width: 50px;
+    position: relative;
+    top: -16px;
+    left: 6px;
+}
+.vertical-title {
+    position: relative;
+    width: 250px;
+    font-size: 14px;
+}
+
+.vertical-desc {
+    width: 198px;
+    font-size: 10px;
+    position: relative;
+    color: gray;
+}
+
+#skills-section {
+    background-color: black;
+    height: 300px;
+    width: auto;
+    border-radius: 20px;
+    margin: 100px 50px;
+    color: white;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.skills div img {
+    height: 100px;
+    width: 100px;
+}
+
+.skills div p {
+    position: relative;
+    top: 10px;
+    left: 25px;
+}
+
+#projectsection {
+    background-color: lavender;
+    height: auto;
+    width: 1200px;
+    border-radius: 20px;
+    margin: 100px 180px;
+}
+
+.myprojects {
+    display: grid;
+    justify-content:space-around;
+    padding: 25px;
+}
+.myprojects div{
+    background-color: #c1b6f3;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.myprojects ul li {
+    list-style: none;
+    color: white;
+}
+.myprojects div a{
+    text-decoration: none;
+    color: black;
+}
+.myprojects div a:hover{
+    color: blue;
+    font-size:1.2rem;
+}
+footer {
+    background-color: rgb(239, 213, 239);
+    height: 200px;
+}
+
+#footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+#footer div img {
+    height: 50px;
+    width: 50px;
+}
+
+section h3 {
+    font-size: 25px;
+    padding: 10px 10px;
+    margin-left: 40px;
+}
+
+footer h3 {
+    font-size: 25px;
+    padding: 10px 10px;
+    margin-left: 40px;
+}
+
+#footer div p a {
+    text-decoration: none;
+    color: black;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0px;
+}
+
+#footer div .text {
+    position: relative;
+    bottom: 40px;
+    left: 55px;
+}
